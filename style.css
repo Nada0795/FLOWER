@@ -1,0 +1,49 @@
+nav ul li {
+  display: inline;
+  margin: 2rem;
+  background-color: white;
+ text-align: left;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav {
+  display: inline;
+  border-bottom: 1px solid black;
+
+}
+
+body{
+  background: lightblue url(img/blue.gif) no-repeat fixed center; 
+}
+
+h1{
+  text-align: center;
+  color:#ff005c ;
+}
+
+
+img{
+  widows: 200px;
+  height: 200px;
+}
+
+
+footer p {
+  text-align: center;
+  color: #2b2e4a;
+  font-size: 30px;
+}
+
+h2{
+  color: #e84545;
+}
+
+li{
+  color: #ff005c;
+}
+
+h3{
+  color: #990e41;
+}
