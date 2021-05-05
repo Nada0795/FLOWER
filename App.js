@@ -19,6 +19,11 @@ else if(flowerType == "Aster")
 else if (flowerType == "Calla Lily")
 console.log ("this is beatiful flower")
 
+else if (flowerType ==="Delphinium")
+{
+  document.write('<img src="img/m3.jpg">')
+}
+
 else {
   alert("this type of flower not found")
 }
