@@ -35,20 +35,26 @@ confirm("THANK YOU")
 // if the user answer more than or equal 5 flowers
 // keep asking them and show the msg (Sorry , this is large number to get it) 
 
-var userFlower = prompt('What is your favorite color of flowers')
+var userFlower = prompt('How many flowers do you want to buy ?')
 
-while(userFlower !== 'red' || userFlower !=='blue')
+while(userFlower >= '5' )
 {
-userFlower = prompt('Sorry, this color not found,try again!')
+userFlower = prompt('Sorry ,this is large number to get it,try again!')
 }
 
 
-var userFlower = prompt('How many flowers do you want to buy ? ');
+ var userFlower = prompt('whats your favorite type ?DahliaIn or Aster ?  ')
+ while(userFlower !== 'DahliaIn' && userFlower !=='Aster'){
+   userFlower = ('try again')
+ }
+ 
+ var flowerCount = prompt('how many flowers you want to see?')
 
-for (x = 0; x < userFlower ;x++)
-{
-  if (userFlower === 'red'){document.write('<img src="https://s3.gifyu.com/images/red-rose.png">')
+for ( var x = 0; x < flowerCount ;x++){
+  if (userFlower ==='DahliaIn' || userFlower === 'Aster'){
+   document.write('<img src= "https://s3.gifyu.com/images/red-rose.png">')
   }
-
+}
+  
 
 
