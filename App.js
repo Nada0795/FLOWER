@@ -1,5 +1,5 @@
 
-//  message to show 
+// //  message to show 
 alert ("This Is The Flowers Site")
 
 
@@ -7,7 +7,7 @@ var userName = prompt('whats Your Name?')
 
 alert('Hello ' + userName)
 
-var flowerType = prompt("whats type of flowers you want ?")
+var flowerType = prompt("whats type of flowers you want ? DahliaIn , Aster, Delphinium ,Calla Lily")
 
 
 if(flowerType == 'DahliaIn')
@@ -28,10 +28,27 @@ else {
   alert("this type of flower not found")
 }
 
-// var theColor = prompt"what color do you want?"
-
-// if (theColor == "Red")
-// {theColor"Red";document.getElementsByName="#cf0000";}
-
-
 confirm("THANK YOU")
+
+// Ask the user what the number of flowers
+// you need to buy ?
+// if the user answer more than or equal 5 flowers
+// keep asking them and show the msg (Sorry , this is large number to get it) 
+
+var userFlower = prompt('What is your favorite color of flowers')
+
+while(userFlower !== 'red' || userFlower !=='blue')
+{
+userFlower = prompt('Sorry, this color not found,try again!')
+}
+
+
+var userFlower = prompt('How many flowers do you want to buy ? ');
+
+for (x = 0; x < userFlower ;x++)
+{
+  if (userFlower === 'red'){document.write('<img src="https://s3.gifyu.com/images/red-rose.png">')
+  }
+
+
+
