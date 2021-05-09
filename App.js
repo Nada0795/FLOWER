@@ -1,6 +1,10 @@
 
 // //  message to show 
+function mySite(){
+
 alert ("This Is The Flowers Site")
+console.log('Hello Everyone')
+}
 
 
 var userName = prompt('whats Your Name?')
@@ -56,5 +60,5 @@ for ( var x = 0; x < flowerCount ;x++){
   }
 }
   
-
+mySite();
 
